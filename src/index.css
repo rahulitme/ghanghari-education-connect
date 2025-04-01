@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +98,23 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .hero-section {
+    background-image: linear-gradient(rgba(26, 54, 93, 0.8), rgba(26, 54, 93, 0.8)), url('/school-bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-school-blue mb-6 relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply absolute left-0 -bottom-2 w-20 h-1 bg-school-gold;
   }
 }
