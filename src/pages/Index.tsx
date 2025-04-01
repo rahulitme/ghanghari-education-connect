@@ -6,6 +6,7 @@ import AboutPreview from '../components/home/AboutPreview';
 import AcademicsPreview from '../components/home/AcademicsPreview';
 import AdmissionsPreview from '../components/home/AdmissionsPreview';
 import ImageGallery from '../components/home/ImageGallery';
+import Services from '../components/home/Services';
 import ContactPreview from '../components/home/ContactPreview';
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <AboutPreview />
       <AcademicsPreview />
       <ImageGallery />
+      <Services />
       <AdmissionsPreview />
       <ContactPreview />
     </Layout>
