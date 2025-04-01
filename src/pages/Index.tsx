@@ -5,6 +5,7 @@ import Hero from '../components/home/Hero';
 import AboutPreview from '../components/home/AboutPreview';
 import AcademicsPreview from '../components/home/AcademicsPreview';
 import AdmissionsPreview from '../components/home/AdmissionsPreview';
+import ImageGallery from '../components/home/ImageGallery';
 import ContactPreview from '../components/home/ContactPreview';
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <Hero />
       <AboutPreview />
       <AcademicsPreview />
+      <ImageGallery />
       <AdmissionsPreview />
       <ContactPreview />
     </Layout>
