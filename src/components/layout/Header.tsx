@@ -14,14 +14,14 @@ const Header = () => {
     <header className="sticky top-0 bg-white shadow-md z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          {/* Logo */}
+          {/* Enhanced Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-school-blue rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">M</span>
+            <div className="w-12 h-12 bg-gradient-to-br from-school-blue to-blue-700 rounded-full flex items-center justify-center shadow-lg">
+              <span className="text-white font-bold text-xl">M</span>
             </div>
             <div>
               <h1 className="text-school-blue font-bold text-xl">Mansarovar</h1>
-              <p className="text-xs text-gray-600">Public School</p>
+              <p className="text-xs text-gray-600 italic">Public School</p>
             </div>
           </Link>
 
