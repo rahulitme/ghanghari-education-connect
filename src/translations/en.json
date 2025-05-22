@@ -1,0 +1,41 @@
+
+{
+  "home": "Home",
+  "about": "About",
+  "academics": "Academics",
+  "admissions": "Admissions",
+  "contact": "Contact",
+  
+  "welcomeTo": "Welcome to Mansarovar Public School",
+  "heroSubtitle": "Building the foundation for a lifetime of success through knowledge, character, and excellence.",
+  "applyForAdmission": "Apply for Admission",
+  "learnMore": "Learn More",
+  
+  "aboutOurSchool": "About Our School",
+  "aboutDesc1": "Mansarovar Public School in Ghanghari, Barkattha, Hazaribagh is committed to providing quality education that develops the intellectual, physical, and ethical potential of each student.",
+  "aboutDesc2": "Our school provides a nurturing environment where students can develop critical thinking skills, creativity, and a strong moral character that will serve them throughout their lives.",
+  "readMore": "Read More",
+  
+  "messageFromPrincipal": "Message from the Principal",
+  "principalName": "Mr. Sonu Kumar",
+  "principalMsg1": "Welcome to Mansarovar Public School! As Principal, I am honored to lead this institution dedicated to providing quality education and shaping the future of our children. Our school strives to create an environment where every student can discover their potential and grow academically, socially, and morally.",
+  "principalMsg2": "We believe in holistic education that nurtures creativity, critical thinking, and character. Our dedicated faculty works tirelessly to ensure that each student receives personalized attention and guidance. Together, we are committed to excellence in education and preparing our students for the challenges of tomorrow.",
+  "readFullMessage": "Read Full Message",
+  
+  "ourServices": "Our Services",
+  "servicesDesc": "Comprehensive services designed to enhance the educational experience at Mansarovar Public School",
+  "schoolBusTitle": "School Bus Service",
+  "schoolBusDesc": "Safe and reliable transportation for students with experienced drivers and well-maintained buses covering all major routes.",
+  "onlineLearningTitle": "Online Learning Platform",
+  "onlineLearningDesc": "Access to digital learning resources, interactive lessons, and educational content for continuous learning beyond the classroom.",
+  "virtualClassroomTitle": "Virtual Classrooms",
+  "virtualClassroomDesc": "Interactive virtual classroom sessions with live teacher interaction, designed to complement traditional classroom learning.",
+  "digitalLibraryTitle": "Digital Library",
+  "digitalLibraryDesc": "Extensive digital library with e-books, research materials, and educational videos to support academic excellence.",
+  
+  "quickLinks": "Quick Links",
+  "schoolHours": "School Hours",
+  "mondayToSaturday": "Monday - Saturday",
+  "officeHours": "Office Hours",
+  "allRightsReserved": "All rights reserved."
+}

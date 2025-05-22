@@ -2,9 +2,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import LanguageSwitcher from './LanguageSwitcher';
+import Logo from './Logo';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useLanguage();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -16,33 +20,32 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Enhanced Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-12 h-12 bg-gradient-to-br from-school-blue to-blue-700 rounded-full flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-xl">M</span>
-            </div>
-            <div>
-              <h1 className="text-school-blue font-bold text-xl">Mansarovar</h1>
-              <p className="text-xs text-gray-600 italic">Public School</p>
-            </div>
+            <Logo />
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-school-blue hover:text-school-gold font-medium transition-colors">
-              Home
+              {t('home')}
             </Link>
             <Link to="/about" className="text-school-blue hover:text-school-gold font-medium transition-colors">
-              About
+              {t('about')}
             </Link>
             <Link to="/academics" className="text-school-blue hover:text-school-gold font-medium transition-colors">
-              Academics
+              {t('academics')}
             </Link>
             <Link to="/admissions" className="text-school-blue hover:text-school-gold font-medium transition-colors">
-              Admissions
+              {t('admissions')}
             </Link>
             <Link to="/contact" className="text-school-blue hover:text-school-gold font-medium transition-colors">
-              Contact
+              {t('contact')}
             </Link>
           </nav>
+
+          {/* Language Switcher */}
+          <div className="hidden md:flex">
+            <LanguageSwitcher />
+          </div>
 
           {/* Mobile Menu Button */}
           <button 
@@ -62,36 +65,39 @@ const Header = () => {
             className="py-3 border-b border-gray-100 text-school-blue hover:text-school-gold font-medium transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
-            Home
+            {t('home')}
           </Link>
           <Link 
             to="/about" 
             className="py-3 border-b border-gray-100 text-school-blue hover:text-school-gold font-medium transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
-            About
+            {t('about')}
           </Link>
           <Link 
             to="/academics" 
             className="py-3 border-b border-gray-100 text-school-blue hover:text-school-gold font-medium transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
-            Academics
+            {t('academics')}
           </Link>
           <Link 
             to="/admissions" 
             className="py-3 border-b border-gray-100 text-school-blue hover:text-school-gold font-medium transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
-            Admissions
+            {t('admissions')}
           </Link>
           <Link 
             to="/contact" 
-            className="py-3 text-school-blue hover:text-school-gold font-medium transition-colors"
+            className="py-3 border-b border-gray-100 text-school-blue hover:text-school-gold font-medium transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
-            Contact
+            {t('contact')}
           </Link>
+          <div className="py-3 flex justify-center">
+            <LanguageSwitcher />
+          </div>
         </nav>
       </div>
     </header>

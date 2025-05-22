@@ -8,12 +8,14 @@ import AdmissionsPreview from '../components/home/AdmissionsPreview';
 import ImageGallery from '../components/home/ImageGallery';
 import Services from '../components/home/Services';
 import ContactPreview from '../components/home/ContactPreview';
+import Principal from '../components/home/Principal';
 
 const Index = () => {
   return (
     <Layout>
       <Hero />
       <AboutPreview />
+      <Principal />
       <AcademicsPreview />
       <ImageGallery />
       <Services />
