@@ -17,7 +17,7 @@ const Footer = () => {
             <p className="mb-4">Providing quality education since establishment</p>
             <div className="flex items-center space-x-2 mb-2">
               <MapPin size={18} />
-              <span>Ghanghari, Barkattha, Hazaribagh - 825405</span>
+              <span>5HQF+C2F, Ghangri, Dharhara, Hazaribagh - 825323</span>
             </div>
             <div className="flex items-center space-x-2 mb-2">
               <Phone size={18} />

@@ -24,8 +24,8 @@ const Contact = () => {
             <h3 className="text-xl font-bold mb-2 text-school-blue">Our Location</h3>
             <p className="text-gray-700">
               Mansarovar Public School<br />
-              Ghanghari, Barkattha,<br />
-              Hazaribagh - 825405,<br />
+              5HQF+C2F, Ghangri, Dharhara,<br />
+              Hazaribagh - 825323,<br />
               Jharkhand, India
             </p>
           </div>

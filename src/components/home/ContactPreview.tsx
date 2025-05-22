@@ -22,8 +22,8 @@ const ContactPreview = () => {
             </div>
             <h3 className="text-xl font-bold mb-2 text-school-blue">Address</h3>
             <p className="text-center text-gray-600">
-              Ghanghari, Barkattha,<br />
-              Hazaribagh - 825405,<br />
+              5HQF+C2F, Ghangri, Dharhara,<br />
+              Hazaribagh - 825323,<br />
               Jharkhand, India
             </p>
           </div>
