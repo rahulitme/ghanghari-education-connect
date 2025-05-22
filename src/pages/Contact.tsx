@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
@@ -176,10 +175,17 @@ const Contact = () => {
         <div className="bg-gray-100 p-6 rounded-lg">
           <h2 className="text-2xl font-bold text-school-blue mb-4">Our Location</h2>
           <div className="aspect-video bg-gray-300 rounded-lg relative overflow-hidden">
-            {/* This would be replaced with an actual Google Map embed */}
-            <div className="absolute inset-0 flex items-center justify-center bg-school-blue bg-opacity-20">
-              <span className="text-white text-xl font-medium">Google Maps Embed Would Appear Here</span>
-            </div>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.512641090159!2d85.36269707517957!3d24.49971197807883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4fb19f2c19c0f%3A0x178e6629cebaad59!2s5HQF%2BC2F%20Mansarovar%20Public%20School%2C%20Ghangri%2C%20Dharhara%2C%20Jharkhand%20825323!5e0!3m2!1sen!2sin!4v1716371721753!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              className="absolute inset-0"
+              title="Mansarovar Public School Location"
+            />
           </div>
         </div>
       </div>
